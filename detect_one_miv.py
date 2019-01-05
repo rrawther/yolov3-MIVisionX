@@ -5,8 +5,8 @@ from annpython_wrapper import *
 
 def parse_args():
     parser = argparse.ArgumentParser('YOLOv3')
-    parser.add_argument('--classfile', type=str, default='model/coco.names')
-    parser.add_argument('--image', type=str, default='images/dog-cycle-car.png')
+    parser.add_argument('--classfile', type=str, default='coco.names')
+    parser.add_argument('--image', type=str, default='dog-cycle-car.png')
     parser.add_argument('--resolution', type=int, default=416)
     parser.add_argument('--annpythonlib', type=str, default='./libannpython.so', help='pythonlib')
     parser.add_argument('--weights',  type=str, default='./weights.bin', help='A directory with images.')    
