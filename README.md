@@ -9,6 +9,7 @@ python detect_one_miv.py --image=images/dog-cycle-car.png
 Some parts are taken from github project https://github.com/jasonlovescoding/YOLOv3-caffe
 
 The weight files can be generated from the MIVisionX model compiler following the commands caffe2nnir and nnir2openvx.
+The model can be downloaded from YOLOv3-caffe-mergebn
 Copy the weights.bin and libannpython.so to the same root project folder.
 
 ### Notes
